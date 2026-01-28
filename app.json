@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "frontend",
-    "slug": "frontend",
+    "name": "ALGUS Gestión Clientes",
+    "slug": "algus-gestion-clientes",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ale181021aa.frontend"
+      "bundleIdentifier": "com.ale181021aa.algus-gestion-clientes"
     },
     "android": {
       "adaptiveIcon": {
@@ -47,9 +47,10 @@
       "reactCompiler": true
     },
     "extra": {
+      "API_URL": "https://data-client-backend.vercel.app",
       "router": {},
       "eas": {
-        "projectId": "04098465-879b-40c6-a5bf-d2900b519844"
+        "projectId": "322428e7-23e2-482e-873c-729fc350d88b"
       }
     }
   }

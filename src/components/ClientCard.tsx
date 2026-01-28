@@ -45,7 +45,7 @@ export const ClientCard = ({ client, onPress }: ClientCardProps) => {
                 "text-xs font-semibold capitalize",
                 client.type === "vip" ? "text-amber-700" : "text-gray-600"
             )}>
-                {client.type}
+                {client.clientType?.name}
             </Text>
           </View>
       )}
